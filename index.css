@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: black;
+    color: white;
+
+}
+.hs1{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0, 0, 0.7), rgba(0, 0,0, 0.7)),url(https://miro.medium.com/max/1200/1*5lyavS59mazOFnb55Z6znQ.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+navbar button{
+    background: red;
+    color: white;
+    font-size: 15px;
+    padding: 7px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}  
+.language_btn{
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgb(64, 64, 64);
+    padding-left: 10px;
+    padding-right: 5px;
+    background: transparent;
+
+}
+.language_btn i{
+ width: 7px;
+ margin-right: 8px;
+}
+.caption{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    text-align: center;
+}
+.caption h1{
+    font-size: 50px;
+    font-weight: 500px;
+    line-height: 60px;
+
+}
+.caption h3{
+ 
+     font-weight: 300px;
+     margin-bottom: 30px;    
+}
+.email{ 
+    background: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+.email input{
+    flex :1;
+    border: 0;
+    outline: 0;
+    margin-left: 15px;
+}
+.email button{
+    background: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 20px;
+
+}
+.hs2
+{
+    padding: 50px 12% ;
+    font-size: 24px;
+}
+.hs2_content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap ;
+    padding: 50px;
+
+}
+.cap1
+{
+    flex-basis: 50%;
+    margin-bottom: 22px;
+}
+.img1{
+    flex-basis: 50%;
+    margin-bottom: 22px;
+    margin-top: 10px;
+   
+
+}
+.img1 img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.hs2 h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hs3_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hs3_content h2{
+    font-size: 150%;
+}
+.hs4_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hs4_content .img3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.hs5_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hs6_content{
+    padding: 10px 12%;
+    text-align: center;
+}
+.hs6_content h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+.accord{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accord li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accord li label{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background: rgb(82, 82, 82);
+    margin-bottom: 3px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+.accord .content{
+    background: rgb(82, 82, 82);
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition:max-height 0.5s, padding 0.5s;
+}
+.accord input[type="radio"]:checked + label + .content{
+    max-height: 600px; padding: 30px 20px;
+}
+.hs6_content small{
+    font-size: 13px ;
+}
+.hs6_content .email{
+    max-width: 600px;
+    margin: 20px auto 60px;
+
+}
+
+.hs7_content{
+    padding: 50px 15% 10px;
+    border-top: 6px solid rgb(65, 63, 63) ;
+    color: rgb(97, 96, 96);
+}
+.hs7_content h2{
+    font-size: 18px; 
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.col_items{
+    flex-basis: 25%;
+     flex-grow: 1;
+    margin-bottom: 20px;
+    
+}
+.hs7_content .col_items a{
+    display:table-header-group;
+    text-decoration: none;
+    color:rgb(97, 96, 96);
+    font-size:14px;
+    margin-bottom: 10px;
+}
+.hs7_content .language_btn{
+    color: white;
+    padding: 7px 10px;
+    border-radius: 0;
+
+}
+.copy_right{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
